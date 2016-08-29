@@ -1,6 +1,6 @@
 ## Docker container for Raspberry Pi OBD2 Python library
 
-Trying to make this as small as possible.
+Trying to make this as small as possible.  It is currently 65.68M 
 
 ```
 docker build -t obd2 .
