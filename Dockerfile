@@ -4,7 +4,7 @@ MAINTAINER dima@us.ibm.com
 
 RUN apk update && apk add bluez python py-pip
 RUN pip install obd
-RUN add test.py /test.py
+ADD test.py /test.py
 
 WORKDIR /
 
