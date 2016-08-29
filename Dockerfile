@@ -10,4 +10,4 @@ WORKDIR /
 
 RUN rm -rf /var/cache/apk/*
 
-CMD ["python", "/firmware.py"]
+CMD ["python", "/test.py"]
